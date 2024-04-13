@@ -1,0 +1,520 @@
+
+/*      COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+
+/*      GLOBAL STYLES
+----------------------------------------------------------------*/
+/*
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+
+html {
+    box-sizing: border-box;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.header-div{
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-family: 'Luxurious Roman', serif;
+
+    h1, h2, h3{
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 0;
+        font-weight: 400;
+        text-shadow: 0 0 3px #18004f;
+    }
+
+    h1{
+         font-size: 7rem;
+        line-height: 0.85;
+    }
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+footer {
+    background: #222;
+    color: #d3d4d6;
+}
+
+@media (max-width: 576px) {
+    .mainpage-cover{
+        height: 50%;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .navigation ul li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .navigation ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .navigation ul{
+        position: absolute;
+        top: 2%;
+        right: 1%;
+    }
+    .text_position{
+        position:absolute;
+        padding-left: 1%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    div #headerH1 {
+        top: 25%;
+        right: 48%;
+        font-size: 15px;
+    }
+
+    div #headerH2 {
+        top: 30%;
+        right: 48%;
+        font-size: 12px;
+    }
+
+    div #headerbtn{
+        position:absolute;
+        top: 35%;
+        right: 49%;
+    }
+
+    .btn-custom {
+        width: 50%;
+        height: 5%;
+        border-radius: 25px;
+        background-color: #2f318f;
+        color: white;
+        font-size: 10px;
+    }
+    .btn-custom:hover {
+        background-color: #2c2e71;
+        color: white;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-icons {
+        margin: 6%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-link {
+        margin: 0 10px;
+    }
+
+    footer div{
+        margin-top: 5%;
+    }
+
+    footer div p{
+        font-size: 7px;
+    }
+    .content-box-iphone{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .content-box img{
+        margin-top: 12%;
+        margin-bottom: 6%;
+
+    }
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .mainpage-cover{
+        height: 80%;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .navigation ul li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .navigation ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    .navigation ul{
+        position: absolute;
+        top: 2%;
+        right: 5%;
+    }
+    .text_position{
+        position:absolute;
+        padding-left: 1%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    div #headerH1 {
+        top: 43%;
+        right: 48%;
+        font-size: 24px;
+    }
+
+    div #headerH2 {
+        top: 51%;
+        right: 56%;
+        font-size: 15px;
+    }
+
+    div #headerbtn{
+        position:absolute;
+        top: 55%;
+        right: 55%;
+    }
+
+    .btn-custom {
+        width: 35%;
+        height: 6%;
+        border-radius: 25px;
+        background-color: #2f318f;
+        color: white;
+    }
+    .btn-custom:hover {
+        background-color: #2c2e71;
+        color: white;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-icons {
+        margin: 3%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-link {
+        margin: 0 10px;
+    }
+
+    footer div{
+        margin-top: 3%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .mainpage-cover{
+        height: 80%;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .navigation ul li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .navigation ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    .navigation ul{
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+    .text_position{
+        position:absolute;
+        padding-left: 1%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    div #headerH1 {
+        top: 43%;
+        right: 50%;
+        font-size: 32px;
+    }
+
+    div #headerH2 {
+        top: 52%;
+        right: 50%;
+        font-size: 22px;
+    }
+
+    div #headerbtn{
+        position:absolute;
+        top: 57%;
+        right: 55%;
+    }
+
+    .btn-custom {
+        width: 35%;
+        height: 8%;
+        border-radius: 25px;
+        background-color: #2f318f;
+        color: white;
+    }
+    .btn-custom:hover {
+        background-color: #2c2e71;
+        color: white;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-icons {
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-link {
+        margin: 0 10px;
+    }
+
+    footer div{
+        margin-top: 1%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mainpage-cover{
+        height: 80%;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .navigation ul li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .navigation ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    .navigation ul{
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+    .text_position{
+        position:absolute;
+        padding-left: 1%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    div #headerH1 {
+        top: 43%;
+        right: 48%;
+        font-size: 50px;
+    }
+
+    div #headerH2 {
+        top: 57%;
+        right: 50%;
+        font-size: 30px;
+    }
+
+    div #headerbtn{
+        position:absolute;
+        top: 64%;
+        right: 54%;
+    }
+
+    .btn-custom {
+        width: 38%;
+        height: 6%;
+        border-radius: 25px;
+        background-color: #2f318f;
+        color: white;
+    }
+    .btn-custom:hover {
+        background-color: #2c2e71;
+        color: white;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-icons {
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-link {
+        margin: 0 10px;
+    }
+
+    footer div{
+        margin-top: 1%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mainpage-cover{
+        height: 80%;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .navigation ul li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .navigation ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    .navigation ul{
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+    .text_position{
+        position:absolute;
+        padding-left: 1%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    div #headerH1 {
+        top: 43%;
+        right: 48%;
+        font-size: 50px;
+    }
+
+    div #headerH2 {
+        top: 57%;
+        right: 57%;
+        font-size: 30px;
+    }
+
+    div #headerbtn{
+        position:absolute;
+        top: 65%;
+        right: 61%;
+    }
+
+    .btn-custom {
+        width: 25%;
+        height: 8%;
+        border-radius: 25px;
+        background-color: #2f318f;
+        color: white;
+    }
+    .btn-custom:hover {
+        background-color: #2c2e71;
+        color: white;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-icons {
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-link {
+        margin: 0 10px;
+    }
+
+    footer div{
+        margin-top: 1%;
+    }
+}
+
+
+/* Content */
+.content-box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-box-text h2{
+    text-align: center;
+    font-weight: 0;
+    text-shadow: 0;
+}
+
+
+/* Phones */
+@media (max-width: 575.98px) {
+    .content-box-iphone{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .content-box img{
+        margin-top: 12%;
+        margin-bottom: 6%;
+
+    }
+}
+
+
+
