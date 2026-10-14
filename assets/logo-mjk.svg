@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">MJK Consultancy</title>
+  <desc id="desc">MJK Consultancy logo in deep blue.</desc>
+  <defs>
+    <linearGradient id="mjkBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#333BC2"/>
+      <stop offset="0.55" stop-color="#252C9B"/>
+      <stop offset="1" stop-color="#171C6E"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#mjkBlue)">
+    <text x="60" y="315" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="275" font-weight="900" letter-spacing="-26">MJK</text>
+  </g>
+  <text x="86" y="420" fill="#171C6E" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="400" letter-spacing="3">Consultancy</text>
+</svg>
